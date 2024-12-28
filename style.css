@@ -1,0 +1,23 @@
+*{
+    background-color: rgb(253, 238, 240);
+}
+h1{
+    color: rgb(101, 30, 30);
+}
+#nav{
+    display: flex;
+    background-color: rgb(101, 30, 30);
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height: 100px;
+
+
+}
+#nav a{
+    text-decoration: none;
+    color: rgb(37, 23, 23);
+    font-family: 'Courier New', Courier, monospace;
+ font-size: large;
+ font-weight: bolder;
+}

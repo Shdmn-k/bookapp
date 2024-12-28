@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav id="nav">
+        <a href="login.html">Home</a>
+        <a href="admin.html">Admin</a>
+        <a href="books.html">Books</a>
+    </nav>
+    <h1>Admin Dashboard</h1>
+    <div class="container">
+        <form id="book-form">
+            <input type="text" id="book-title" placeholder="add your book title">
+            <input type="text" id="book-author" placeholder="add author name">
+           <select  id="book-category">
+            <option value="ficton">Fiction</option>
+            <option value="non-fiction">Non-fiction</option>
+        </select>
+        <button type="submit">ADD YOUR BOOKS!</button>
+        </form>
+        <h2>Book List</h2>
+        <ul id="book-list">
+            <!-- books should be displayed here -->
+        </ul>
+    </div>
+   <script src="admin.js"></script>
+</body>
+</html>
